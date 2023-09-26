@@ -10,11 +10,11 @@ const MorningsideaiByHtmltodesi: NextPage = () => {
   return (
     <div className="relative w-full h-[4781px] flex flex-col items-start justify-start">
       <img
-        className="my-0 mx-[!important] absolute top-[0px] left-[0px] max-h-full w-[1861px] overflow-hidden object-cover z-[0]"
+        className="my-0 mx-[!important] absolute top-[0px] left-[0px] max-h-full w-full overflow-hidden object-cover z-[0]"
         alt=""
         src="/divnova@2x.png"
       />
-      <main className="w-[1860px] flex flex-col items-center justify-start gap-[40px] z-[1] text-center text-5xl text-darkorange font-space-grotesk sm:flex-col">
+      <main className="w-[1860px] flex flex-col items-center justify-start gap-[40px] z-[1] text-center text-5xl text-darkorange font-space-grotesk sm:flex-col w-full">
         <div className="w-[1863px] flex flex-col items-center justify-start">
           <AiLifyContainer />
           <div className="w-full flex flex-row items-center justify-center py-32 px-3 box-border max-w-[1536px]">
