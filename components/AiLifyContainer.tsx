@@ -8,7 +8,7 @@ const AiLifyContainer: NextPage = () => {
           <div className="self-stretch h-36 flex flex-col items-start justify-start">
             <div className="self-stretch flex flex-col items-start justify-start py-0 pr-[901px] pl-0">
               <h1 className="m-0 relative text-inherit leading-[72px] font-bold font-inherit inline-block max-w-[1336px]">
-                AiLify
+                New
               </h1>
             </div>
             <div className="self-stretch" />
