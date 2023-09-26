@@ -3,7 +3,7 @@ import CardContainer1 from "./CardContainer1";
 
 const TeamContainer: NextPage = () => {
   return (
-    <div className="w-[1536px] flex flex-col items-center justify-center py-0 px-3 box-border max-w-[1536px] text-center text-5xl text-darkorange font-space-grotesk">
+    <div className="w-full flex flex-col items-center justify-center py-0 px-3 box-border max-w-[1536px] text-center text-5xl text-darkorange font-space-grotesk">
       <div className="flex flex-row items-center justify-center pt-32 px-0 pb-6">
         <div className="flex flex-col items-start justify-start">
           <div className="self-stretch flex flex-col items-center justify-start">
@@ -11,7 +11,7 @@ const TeamContainer: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className="w-[1512px] flex flex-row items-center justify-between text-left text-13xl text-gray-100">
+      <div className="self-stretch flex flex-row items-center justify-between text-left text-13xl text-gray-100">
         <CardContainer1
           userImageUrl="/1png@2x.png"
           employeeTitle="Liam Ottley"

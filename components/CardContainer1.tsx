@@ -21,12 +21,12 @@ const CardContainer1: NextPage<CardContainer1Type> = ({
         />
       </div>
       <div className="self-stretch flex flex-col items-start justify-start pt-5 pb-0 pr-[244px] pl-0">
-        <b className="relative leading-[48px] uppercase inline-block max-w-[440px]">
+        <b className="w-full relative leading-[48px] uppercase inline-block max-w-[440px]">
           {employeeTitle}
         </b>
       </div>
       <div className="self-stretch flex flex-col items-start justify-start py-0 pr-[402px] pl-0 text-lg text-darkorange font-inter">
-        <div className="relative leading-[28px] uppercase inline-block max-w-[440px]">
+        <div className="w-full relative leading-[28px] uppercase inline-block max-w-[440px]">
           {executiveImageUrl}
         </div>
       </div>

@@ -8,25 +8,25 @@ import Header from "../components/Header";
 
 const MorningsideaiByHtmltodesi: NextPage = () => {
   return (
-    <div className="relative w-full flex flex-col items-start justify-start text-center text-5xl text-darkorange font-space-grotesk">
+    <div className="relative w-full h-[4781px] flex flex-col items-start justify-start">
       <img
-        className="my-0 mx-[!important] absolute top-[0px] left-[0px] max-h-full w-[1920px] overflow-hidden object-cover z-[0]"
+        className="my-0 mx-[!important] absolute top-[0px] left-[0px] max-h-full w-[1861px] overflow-hidden object-cover z-[0]"
         alt=""
         src="/divnova@2x.png"
       />
-      <div className="self-stretch flex flex-col items-center justify-start gap-[40px] z-[1]">
-        <div className="self-stretch flex flex-col items-center justify-start">
+      <main className="w-[1860px] flex flex-col items-center justify-start gap-[40px] z-[1] text-center text-5xl text-darkorange font-space-grotesk sm:flex-col">
+        <div className="w-[1863px] flex flex-col items-center justify-start">
           <AiLifyContainer />
-          <div className="w-[1536px] flex flex-row items-center justify-center py-32 px-3 box-border max-w-[1536px]">
+          <div className="w-full flex flex-row items-center justify-center py-32 px-3 box-border max-w-[1536px]">
             <div className="flex-1 flex flex-col items-start justify-start">
               <div className="self-stretch flex flex-col items-center justify-start gap-[24px]">
                 <div className="self-stretch flex flex-col items-center justify-start py-0 pr-[698.8171997070312px] pl-[699.1828002929688px]">
-                  <b className="relative leading-[32px] uppercase inline-block max-w-[1512px]">
+                  <b className="w-full relative leading-[32px] uppercase inline-block max-w-[1512px]">
                     About Us
                   </b>
                 </div>
                 <div className="w-[790px] flex flex-col items-center justify-start py-0 pr-[3.394993782043457px] pl-[3.605006217956543px] box-border max-w-[790px] text-[20px] text-dimgray">
-                  <div className="relative leading-[35px] inline-block max-w-[790px]">
+                  <div className="w-full relative leading-[35px] inline-block max-w-[790px]">
                     <p className="m-0">
                       Morningside AI is your full-cycle AI development partner,
                       from concept to
@@ -59,13 +59,13 @@ const MorningsideaiByHtmltodesi: NextPage = () => {
               </div>
             </div>
           </div>
-          <div className="self-stretch relative bg-gray-200 h-[376px]" />
+          <div className="relative bg-gray-200 w-[1866px] h-[376px]" />
           <ServicesContainer />
           <TeamContainer />
           <ContactForm />
         </div>
         <NewsletterForm />
-      </div>
+      </main>
       <Header />
     </div>
   );

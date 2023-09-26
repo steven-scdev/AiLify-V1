@@ -44,6 +44,11 @@ module.exports = {
       "53xl": "72px",
       inherit: "inherit",
     },
+    screens: {
+      sm: {
+        max: "420px",
+      },
+    },
   },
   corePlugins: {
     preflight: false,
