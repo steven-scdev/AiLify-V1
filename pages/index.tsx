@@ -8,16 +8,16 @@ import Header from "../components/Header";
 
 const MorningsideaiByHtmltodesi: NextPage = () => {
   return (
-    <div className="relative w-full h-[4781px] flex flex-col items-start justify-start">
+    <div className="relative w-full h-full flex flex-col items-start justify-start">
       <img
-        className="my-0 mx-[!important] absolute top-[0px] left-[0px] max-h-full w-full overflow-hidden object-cover z-[0]"
+        className="my-0 mx-[!important] absolute top-[0px]  left-[0px] max-h-full w-full overflow-hidden object-cover z-[0]"
         alt=""
         src="/divnova@2x.png"
       />
-      <main className="w-[1860px] flex flex-col items-center justify-start gap-[40px] z-[1] text-center text-5xl text-darkorange font-space-grotesk sm:flex-col w-full">
+      <main className="w-[1860px] flex h-full flex-col items-center justify-start gap-[40px] z-[1] text-center text-5xl text-darkorange font-space-grotesk sm:flex-col w-f">
         <div className="w-[1863px] flex flex-col items-center justify-start">
           <AiLifyContainer />
-          <div className="w-full flex flex-row items-center justify-center py-32 px-3 box-border max-w-[1536px]">
+          {/* <div className="w-full flex flex-row items-center justify-center py-32 px-3 box-border max-w-[1536px]">
             <div className="flex-1 flex flex-col items-start justify-start">
               <div className="self-stretch flex flex-col items-center justify-start gap-[24px]">
                 <div className="self-stretch flex flex-col items-center justify-start py-0 pr-[698.8171997070312px] pl-[699.1828002929688px]">
@@ -58,15 +58,15 @@ const MorningsideaiByHtmltodesi: NextPage = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="relative bg-gray-200 w-[1866px] h-[376px]" />
-          <ServicesContainer />
+          </div> */}
+          {/* <div className="relative bg-gray-200 w-[1866px] h-[376px]" /> */}
+          {/* <ServicesContainer />
           <TeamContainer />
-          <ContactForm />
+          <ContactForm /> */}
         </div>
-        <NewsletterForm />
+        {/* <NewsletterForm /> */}
       </main>
-      <Header />
+      {/* <Header /> */}
     </div>
   );
 };

@@ -1,4 +1,7 @@
 import type { NextPage } from "next";
+import { useState } from "react";
+import axios from "axios";
+import Form from "../pages/form";
 
 const AiLifyContainer: NextPage = () => {
   return (
@@ -24,19 +27,20 @@ const AiLifyContainer: NextPage = () => {
                 </p>
               </div>
             </div>
-            <div className="self-stretch h-[88px] flex flex-row items-start justify-start  mt-5 pr-[1030.93994140625px] pl-0 box-border gap-[12px]">
+            <div className="self-stretch h-[700px] flex flex-row items-start justify-start  mt-5 pr-[1030.93994140625px] pl-0 box-border gap-[12px]">
               <div className="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-0.5">
-                <button className="cursor-pointer [border:none] pr-[31.031455993652344px] pl-[31.858543395996094px] bg-darkorange self-stretch rounded-lg flex flex-row items-start justify-start">
+                <Form />
+                {/* <button className="cursor-pointer p-3 [border:none] pr-[31.031455993652344px] pl-[31.858543395996094px] bg-darkorange self-stretch rounded-lg flex flex-row items-start justify-start">
                   <div className="relative text-base leading-[24px] font-medium font-inter text-white text-center">
-                    Let's talk
+                  Let's talk
                   </div>
-                </button>
+                </button> */}
               </div>
               <button className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch flex flex-col items-start justify-start">
                 <div className="self-stretch rounded-lg bg-white shadow-[0px_1px_2px_rgba(16,_24,_40,_0.05)] flex flex-row items-start justify-start  pr-[31.322864532470703px] pl-[32.84713363647461px] border-[1px] border-solid border-gray-100">
-                  <div className="relative text-base leading-[24px] font-medium font-inter text-gray-100 text-center">
+                  {/* <div className="relative text-base leading-[24px] font-medium font-inter text-gray-100 text-center">
                     Our services
-                  </div>
+                  </div> */}
                 </div>
               </button>
             </div>
